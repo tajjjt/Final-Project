@@ -1,16 +1,3 @@
-bl_info = {
-    "name": "Studio lights",
-    "author": "TAJ",
-    "version": (1, 0),
-    "blender": (2, 80, 0),
-    "location": "View3D > Add > Mesh > New Object",
-    "description": "Adds dynamic studio lights",
-    "warning": "",
-    "doc_url": "",
-    "category": "Add lights",
-}
-
-
 import bpy
 
 
@@ -79,6 +66,8 @@ def unregister():
     bpy.types.VIEW3D_MT_object.remove(menu_func)
 
 
+if __name__ == "__main__":
+    register()
 
 
 #Panel
@@ -103,3 +92,5 @@ def register ():
 def unregister():
     bpy.utils.unregister_class(VIEW3D_CustomPanel)
 
+if __name__ == "__main__":
+    register()
