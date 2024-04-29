@@ -1,3 +1,17 @@
+bl_info = {
+    "name": "Studio Lights by Taj",
+    "author": "Tahjmere Turner",
+    "version": (1, 0),
+    "blender": (2, 80, 0),
+    "location": "View3D > Add > Mesh > New Object",
+    "description": "Adds a studio lighting setup",
+    "warning": "",
+    "doc_url": "",
+    "category": "Lighting",
+}
+
+
+
 import bpy
 
 
